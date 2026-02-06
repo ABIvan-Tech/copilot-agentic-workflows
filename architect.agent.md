@@ -42,7 +42,6 @@ Your context window is limited - especially the output, so you must ALWAYS use #
 - **Keep prompts concise.** Subagents can read files themselves. Give them: task, file paths, key constraints. Skip verbose context dumps.
 - **Subagents are smart.** They can discover context. Don't over-specify — tell them WHAT, let them figure out HOW.
 - **Validate before reporting done.** After subagents complete, read modified files or run tests to confirm correctness.
-- **DO NOT tell the designer how to do design.** They hate that and will probably spend the rest of the day with "Kiss Me, Kiss Me, Kiss Me" on repeat. Let them do their job.
 
 ## Subagent Prompt Format
 
