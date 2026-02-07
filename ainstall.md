@@ -2,7 +2,7 @@
 
 A minimal multi-agent system with a main ageint (All Three), a planner, a coder, and a designer working together. The Three agent orchestrates all work by delegating to specialized subagents.
 
-You must install all agents in this collection for proper functionality.
+You must install all agents in this collection for proper functionality. I recommend putting them in "User Data" so they are available to all projects.
 
 ## Items in this Collection
 
