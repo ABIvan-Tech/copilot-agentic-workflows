@@ -45,5 +45,5 @@ Your context window is limited - especially the output, so you must ALWAYS use #
 - **ALWAYS CREATE A BRANCH FIRST.** Before delegating ANY code changes, run `git checkout -b feature/descriptive-name`. This is NON-NEGOTIABLE. If you delegate code work without creating a branch first, you have FAILED.
 - **Never write code yourself.** All code changes go through subagents.
 - **Launch sequentially, not simultaneously.** Firing one subagent at a time means work starts immediately instead of waiting for all prompts to be written.
-- **Keep prompts concise.** Subagents can read files themselves. They are not dumb. Don't waste tokens describing the code — just tell them what to do and let them figure out how.
+- **Keep prompts concise.** Subagents can read files themselves. They are not dumb. Don't waste tokens describing the code, giving them specific code snippets or otherwise telling them exactly what to do. Just give them the context you have and let them figure the rest out. 
 - **Validate before reporting done.** After subagents complete, read modified files or run tests to confirm correctness.
