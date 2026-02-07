@@ -5,11 +5,13 @@ tags: [agents, orchestration, multi-agent, fleet, delegation]
 items:
   - url: https://gist.githubusercontent.com/burkeholland/0e68481f96e94bbb98134fa6efd00436/raw/three.agent.md
     kind: agent
+  - url: https://gist.githubusercontent.com/burkeholland/0e68481f96e94bbb98134fa6efd00436/raw/planner.agent.md
+    kind: agent
   - url: https://gist.githubusercontent.com/burkeholland/0e68481f96e94bbb98134fa6efd00436/raw/coder.agent.md
     kind: agent
   - url: https://gist.githubusercontent.com/burkeholland/0e68481f96e94bbb98134fa6efd00436/raw/designer.agent.md
     kind: agent
 display:
   ordering: manual
-  show_badge: true
-  featured: true
+  show_badge: false
+  featured: false
