@@ -34,9 +34,11 @@ Your context window is limited - especially the output, so you must ALWAYS use #
 
 3. **Plan** — Produce a brief numbered list of work units. Keep it short — just task names and target files. Do NOT write detailed prompts yet.
 
-4. **Delegate** — Launch subagents ONE AT A TIME. Write the prompt, fire it immediately, then proceed to next. This is faster than batching because you don't have to generate all prompts before any work begins.
+4. **Review** - Run your plan by the Coder and Designer agents. Iterate on the plan until both approve. This ensures technical feasibility and good UX before any work begins.
 
-5. **Integrate** — After all subagents complete, verify consistency. If conflicts exist, launch a fix-up subagent. Report final outcome.
+5. **Delegate** — Launch subagents ONE AT A TIME. Write the prompt, fire it immediately, then proceed to next. This is faster than batching because you don't have to generate all prompts before any work begins.
+
+6. **Integrate** — After all subagents complete, verify consistency. If conflicts exist, launch a fix-up subagent. Report final outcome.
 
 ## Rules
 
