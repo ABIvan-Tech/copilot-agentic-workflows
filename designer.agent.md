@@ -1,6 +1,6 @@
 ---
 name: Designer
-description: 'Handles all UI/UX and design tasks'
+description: Handles all UI/UX and design tasks
 model: Gemini 3 Pro (Preview) (copilot)
 ---
 
