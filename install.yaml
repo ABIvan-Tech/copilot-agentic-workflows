@@ -1,0 +1,15 @@
+id: three
+name: Ultralight Orchestration of "The Big Three"
+description: "A minimal multi-agent system with a PM (Three), a coder, a planner, and a designer working in harmony. The Three agent orchestrates all work through subagents."
+tags: [agents, orchestration, multi-agent, fleet, delegation]
+items:
+  - url: https://gist.githubusercontent.com/burkeholland/0e68481f96e94bbb98134fa6efd00436/raw/three.agent.md
+    kind: agent
+  - url: https://gist.githubusercontent.com/burkeholland/0e68481f96e94bbb98134fa6efd00436/raw/coder.agent.md
+    kind: agent
+  - url: https://gist.githubusercontent.com/burkeholland/0e68481f96e94bbb98134fa6efd00436/raw/designer.agent.md
+    kind: agent
+display:
+  ordering: manual
+  show_badge: true
+  featured: true
