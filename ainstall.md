@@ -1,4 +1,4 @@
-# Ultralight Orchestration
+# All Three Ultralight Orchestration
 
 A minimal multi-agent system with a main ageint (All Three), a planner, a coder, and a designer working together. The Three agent orchestrates all work by delegating to specialized subagents.
 
