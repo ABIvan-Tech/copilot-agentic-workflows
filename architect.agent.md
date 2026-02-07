@@ -78,6 +78,3 @@ Plan:
 3. Config update → src/config.ts  
 4. Unit tests → tests/auth.test.ts
 5. Integration tests → tests/integration/ (after 1-3)
-
-→ Launch #1 now. When it completes, launch #2. Continue until done.
-→ For truly independent work (like #3 and #4 which don't depend on each other), you MAY batch 2-3 subagents if their prompts are very short.
