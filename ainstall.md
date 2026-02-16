@@ -13,7 +13,9 @@ Install all agents listed below into VS Code Insiders...
 | [Coder](https://gist.github.com/burkeholland/0e68481f96e94bbb98134fa6efd00436#file-coder-agent-md)<br />[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/install/agent?url=vscode%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2Fgist.githubusercontent.com%2Fburkeholland%2F0e68481f96e94bbb98134fa6efd00436%2Fraw%2Fcoder.agent.md)<br />[![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/install/agent?url=vscode-insiders%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2Fgist.githubusercontent.com%2Fburkeholland%2F0e68481f96e94bbb98134fa6efd00436%2Fraw%2Fcoder.agent.md) | Agent | Writes code following mandatory coding principles (GPT-5.2-Codex) |
 | [Designer](https://gist.github.com/burkeholland/0e68481f96e94bbb98134fa6efd00436#file-designer-agent-md)<br />[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/install/agent?url=vscode%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2Fgist.githubusercontent.com%2Fburkeholland%2F0e68481f96e94bbb98134fa6efd00436%2Fraw%2Fdesigner.agent.md)<br />[![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/install/agent?url=vscode-insiders%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2Fgist.githubusercontent.com%2Fburkeholland%2F0e68481f96e94bbb98134fa6efd00436%2Fraw%2Fdesigner.agent.md) | Agent | Handles all UI/UX and design tasks (Gemini 3 Pro) |
 
-Use the Orchestrator agent in VS Code and send your prompt. That's it.
+Enable the "Use custom agent in Subagent" and "Memory" settings in the User Settings (UI) in VS Code.
+
+Use the Orchestrator agent in VS Code and send your prompt.
 
 ## Agent Breakdown
 
