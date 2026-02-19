@@ -24,21 +24,20 @@ Usage flows (ASCII diagrams)
 
 Plan -> Code -> Review flow (orchestrator-1):
 
-  +--------+     +------+     +---------+
-  | Planner| --> |Coder | --> |Reviewer |
-  +--------+     +------+     +---------+
-       ^                             |
-       |                             v
-       +--------<-- Iteration <------+
-
+```mermaid
+flowchart TD
+    User --> Planner
+    Planner --> Coder
+    Coder --> Finish
+```
 Review-focused flow (orchestrator-2):
 
-  +--------+     +---------+     +-------+
-  |Coder   | --> |Reviewer | --> |Debug  |
-  +--------+     +---------+     +-------+
-       |               ^             |
-       +---------------+-------------+
-                    iterate
+```mermaid
+flowchart TD
+    ExistingCode --> Reviewer
+    Reviewer --> Coder
+    Coder --> Finish
+```
 
 Files changed in this import
 
