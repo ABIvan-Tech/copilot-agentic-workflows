@@ -1,7 +1,7 @@
 ---
 name: MultiReviewer
 description: Consolidates findings from multiple parallel code reviews into a unified report with consensus scoring.
-model: Claude Opus 4.6 (copilot)
+model: Gemini 3.1 Pro (Preview) (copilot)
 target: vscode
 user-invocable: false
 disable-model-invocation: true
